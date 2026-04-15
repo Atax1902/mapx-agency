@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'MapX Agency | Fortnite UEFN & Roblox Premium Studio',
   description:
-    'MapX Agency — Agence spécialisée dans la création UGC sur Fortnite et Roblox pour les marques et créateurs. Expertise, créativité, résultats.',
+    'Agence spécialisée dans la création UGC sur Fortnite et Roblox.',
   keywords: [
     'MapX Agency', 'Fortnite UEFN', 'Roblox', 'création de maps',
     'studio gaming', 'UGC agency', 'expériences Roblox', 'maps personnalisées', 'brand activation',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'MapX Agency' }],
   openGraph: {
     title: 'MapX Agency | Fortnite UEFN & Roblox Premium Studio',
-    description: 'Studio premium spécialisé en création de Maps Fortnite UEFN et Expériences Roblox.',
+    description: 'Agence spécialisée dans la création UGC sur Fortnite et Roblox.',
     type: 'website',
   },
 }
@@ -30,9 +30,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="fr" className="dark" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon-white.png" media="(prefers-color-scheme: dark)" />
-        <link rel="icon" href="/favicon-dark.png"  media="(prefers-color-scheme: light)" />
-        <link rel="icon" href="/favicon-white.png" />
+        <link rel="icon" href="/logolixi.png" />
       </head>
       <body className={`${inter.variable} antialiased`}>
         <Providers>

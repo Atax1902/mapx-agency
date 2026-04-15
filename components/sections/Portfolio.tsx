@@ -21,6 +21,7 @@ const ROW_1: GalleryImage[] = [
   { src: '/assets/portfolio/map6/ScreenShot00036.png',               alt: 'Map 6' },
   { src: '/assets/portfolio/map4/Capture_decran_2026-02-18_221829.png', alt: 'Map 4' },
   { src: '/assets/portfolio/map7/ScreenShot00055.png',               alt: 'Map 7' },
+  { src: '/assets/portfolio/map10.png',                              alt: 'Map 10' },
 ]
 
 const ROW_2: GalleryImage[] = [
@@ -39,6 +40,7 @@ const ROW_2: GalleryImage[] = [
   { src: '/assets/portfolio/map5/Centreville_plan8.png',             alt: 'Map 5' },
   { src: '/assets/portfolio/map1/ScreenShot00036.png',               alt: 'Map 1' },
   { src: '/assets/portfolio/map6/ScreenShot00045.png',               alt: 'Map 6' },
+  { src: '/assets/portfolio/map11.png',                              alt: 'Map 11' },
 ]
 
 const ROW_3: GalleryImage[] = [
@@ -58,6 +60,7 @@ const ROW_3: GalleryImage[] = [
   { src: '/assets/portfolio/map5/Stadefoot_plan2.png',               alt: 'Map 5' },
   { src: '/assets/portfolio/map6/ScreenShot00043.png',               alt: 'Map 6' },
   { src: '/assets/portfolio/map4/Capture_decran_2026-02-18_223020.png', alt: 'Map 4' },
+  { src: '/assets/portfolio/map12.png',                              alt: 'Map 12' },
 ]
 
 const ease = [0.16, 1, 0.3, 1] as const
