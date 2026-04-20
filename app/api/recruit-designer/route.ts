@@ -62,13 +62,15 @@ export async function POST(req: NextRequest) {
 
     const { website: _honeypot, ...data } = result.data
 
-    await logSubmission({
-      id:        generateId(),
-      type:      'recruit-designer',
-      timestamp: new Date().toISOString(),
-      ip,
-      data,
-    })
+    try {
+      await logSubmission({
+        id:        generateId(),
+        type:      'recruit-designer',
+        timestamp: new Date().toISOString(),
+        ip,
+        data,
+      })
+    } catch { /* filesystem read-only on Vercel */ }
 
     const formspreeId = process.env.FORMSPREE_DESIGNER_ID
     if (formspreeId) {
